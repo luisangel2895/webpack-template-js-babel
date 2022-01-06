@@ -4,7 +4,7 @@ import logo from "../assets/img/webpack-logo.png";
 export const hello = (name) => {
   console.log("Creating h1 ...");
   const $h1 = document.createElement("h1");
-  $h1.innerHTML = `Hi my name is ${name} !!!`;
+  $h1.innerHTML = `Created by ${name}`;
   $h1.id = "title-name";
   document.body.append($h1);
 
